@@ -1,0 +1,38 @@
+Here are the test cases for task5.js
+these test cases including
+-real number
+-division of number by 0
+-negative number
+-large number
+-decimal number
+-denominator
+
+1. calculateA(1,2,3,4) : //expected output: 0.42857142857142855
+
+2. calculateA(0,0,0,0) : //expected output: zero is not allowed for c and d, Please enter REAL number for c and d!
+
+3. calculateA(a,2,3,4) : //expected output: NaN
+
+4. calculateA(1,2,-3,3) : //expected output: zero is not allowed for c and d, Please enter REAL number for c and d!
+
+5. calculateA(1,2,0,0) : //expected output:zero is not allowed for c and d, Please enter REAL number for c and d!
+
+6. calculateA(1.5,2.5,3.5,4.5) : //expected output: 0.5
+
+7. calculateA(0,0,1,0) : //expected output: 0
+
+8. calculateA(-1,2,3,-4) : //expected output: -1
+
+9. calculateA(-1,-2,0,0) : //expected output:zero is not allowed for c and d, Please enter REAL number for c and d!
+
+10. calculateA(0,0,1,1) : //expected output: 0
+
+11. calculateA(0,1,-1,0) : //expected output: -1
+
+12. calculateA(5,6,7,8) : //expected output: 0.73333333
+
+13. calculateA(0.9,0.1,0.5,0.4) : //expected output: 1.1111111111111112
+
+14. calculateA(0.0001,0.0002,0.0003,0.0004) : //expected output: 0.4285714285714286
+
+15. calculateA(1000,2000,3000,4000) : //expected output: 0.42857142857142855

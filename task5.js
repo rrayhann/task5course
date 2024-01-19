@@ -1,3 +1,5 @@
+const prompt = require("prompt-sync")({ sigint: true });
+
 function calculateA(a, b, c, d) {
   //check if each value is REAL number
   if (
